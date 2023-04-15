@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  /* background-color: #76a9e0; */
+  background-image: url(https://th.bing.com/th/id/R.8fa51f9148c844291e36d2283cd58edd?rik=kOEZvXdGqRSSbQ&riu=http%3a%2f%2fbestanimations.com%2fBooks%2fpage-turning-book-animation-2.gif&ehk=vDr57X8A9Lg%2fsameNKA5%2bTI5TQCfGwpj68TGZouKplA%3d&risl=&pid=ImgRaw&r=0);
+  /*backgruld color is set to a collour*/  
+  background-color: lightcoral;
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center {
+  margin: auto;
+  margin-top: 200px;
+}
+
+
+#header {
+  font-family: 'Righteous', sans-serif;
+  font-size: 3rem;
+}
+
+h1{
+  font-family: 'monospace', monaco;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: 'monospace', monaco;
+}
+
+.book-list {
+  margin-top: 50px;
+  visibility: hidden;
+}
+/* Default styles for image */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media query for devices with a width less than 768px */
+@media screen and (max-width: 768px) {
+  img {
+    width: 50%;
+    height: auto;
+  }
+}
+
+/* Media query for devices with a width between 768px and 992px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  img {
+    width: 70%;
+    height: auto;
+  }
+}
+
+/* Media query for devices with a width greater than 992px */
+@media screen and (min-width: 992px) {
+  img {
+    width: 30%;
+    height: auto;
+  }
+}
